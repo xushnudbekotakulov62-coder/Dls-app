@@ -21,6 +21,9 @@ version = 1.0
 # (list) Application requirements
 requirements = python3,kivy,requests
 
+# (str) Explicitly set Python version to avoid python 3.14 errors
+p4a.python_version = 3.10
+
 # (list) Permissions
 android.permissions = INTERNET
 
